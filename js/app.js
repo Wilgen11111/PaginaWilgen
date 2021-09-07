@@ -8,6 +8,7 @@ window.onload = function() {
 const side = document.getElementById('side')
 const btnMenu = document.getElementById('btnMenu')
 const iconoMenu = document.getElementById('iconoMenu')
+const links = document.getElementById('links')
 const nombre = document.getElementById('nombre')
 const descripcion = document.getElementById('descripcion')
 const enviarComentario = document.getElementById('enviarComentario')
@@ -15,6 +16,12 @@ const  modal = document.getElementById('modal')
 const cerrarModal = document.getElementById('cerrarModal')
 const tituloModal = document.getElementById('tituloModal')
 const parrafoModal = document.getElementById('parrafoModal')
+
+links.addEventListener('click', () =>{
+    side.classList.add('menu-colapsed')
+    iconoMenu.classList.toggle('fa-bars')
+    iconoMenu.classList.toggle('fa-times')
+})
 
 btnMenu.addEventListener('click', () => {
     side.classList.toggle('menu-colapsed')
