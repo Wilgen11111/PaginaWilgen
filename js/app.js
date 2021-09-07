@@ -1,9 +1,9 @@
 
-// window.onload = function() {
-//     let loading = document.querySelector('.loading')
-//     loading.setAttribute('class', 'dnone')
-//     window.scroll(0,0)
-// };
+window.onload = function() {
+    let loading = document.querySelector('.loading')
+    loading.setAttribute('class', 'dnone')
+    window.scroll(0,0) 
+};
 
 const side = document.getElementById('side')
 const btnMenu = document.getElementById('btnMenu')
