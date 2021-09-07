@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/031b17f204.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="loading dnone">
+        <img src="img/puff.svg" class="loader" alt="">
+    </div>
+
+    <div class="navbar">
+        <aside id="side" class="menu menu-colapsed">
+            <div class="">
+                <ul class="menu-links">
+                    <li class="menu-items"><a href="#home">Home</a></li>
+                    <li class="menu-items"><a href="#about">About</a></li>
+                    <li class="menu-items"><a href="#habilidades">Habilidades</a></li>
+                    <li class="menu-items"><a href="#proyectos">Proyectos</a></li>
+                    <li class="menu-items"><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </aside>
+        <div class="menu-width">
+            <p id="btnMenu" class="cerrar"><i id="iconoMenu" class="fas fa-bars"></i></p>
+            <!-- <img src="img/logo.png" alt="" class="menu-logo"> -->
+            <p class="menu-logo"><small class="llaves"><</small>WLGR<small class="llaves">/></small></p>
+        </div>
+    </div>
+    
+    <section class="home" id="home">
+        <div class="home-descripcion">
+            <h2 class="home-hola">Hola Mundo,</h2>
+            <h3 class="home-text">Mi nombre es <small class="home-nombre">Wilgen Garcia</small></h3>
+            <h3 class="home-text">Soy Ingeniero de sistemas<small>(proximamente 🙂)</small></h3>
+        </div>
+    </section>
+
+    <section style="width: 100%; background: #00002D;" class="wave-container">
+        <img src="https://wilgen.000webhostapp.com/practicas/paginapersonal/img/waves2.svg" alt="" class="wave">
+    </section>
+    <section class="container about" id="about">
+        <h2 class="about-tittle">Acerca de mi:</h2>
+        <p class="about-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta repudiandae sunt quia optio sit esse eius, debitis cupiditate architecto quo animi! Ea commodi odit repudiandae ipsa ipsam quisquam! Quisquam, enim?</p>
+    </section>
+
+    <main class="container habilidades" id="habilidades">
+        <h2 class="about-tittle">Habilidades:</h2>
+        <div class="container-grid">
+            <div class="lenguaje">
+                <img src="img/html.svg" class="lenguaje-img" alt="">
+                <h3>HTML5</h3>
+            </div>
+            <div class="lenguaje">
+                <img src="img/css.png" class="lenguaje-img" alt="">
+                <h3>CSS3</h3>
+            </div>
+            <div class="lenguaje">
+                <img src="img/js.svg" class="lenguaje-img" alt="">
+                <h3 class="javascript" >JavaScript</h3>
+                <h3 class="js" >JS</h3>
+            </div>
+            <div class="lenguaje">
+                <img src="img/angular.svg" class="lenguaje-img" alt="">
+                <h3>Angular</h3>
+            </div>
+            <div class="lenguaje">
+                <img src="img/java.svg" class="lenguaje-img" alt="">
+                <h3>Java</h3>
+            </div>
+            <div class="lenguaje">
+                <img src="img/php.svg" class="lenguaje-img" alt="">
+                <h3>PHP</h3>
+            </div>
+        </div>
+    </main>
+
+
+    <section class="proyectos" id="proyectos">
+        <h2 class="titulo">Proyectos realizados</h2>
+        <div class="proyectos-cards">            
+            <div class="proyectos-card">
+                <div class="proyectos-header">
+                    <img src="https://wilgen.000webhostapp.com/img/landing.png" class="proyectos-img" alt="">
+                </div>
+                <div class="proyectos-body">
+                    <h3 class="proyectos-titulo">Landing Page</h3>
+                    <p class="proyectos-parrafo">Landing page desarrollada con JavaScript, Html y Css, utilizando Flexbox y Css Grid. Diseño responsive (Diseño tomado de FrontEndMentor)</p>
+                </div>
+                <div class="proyectos-btns">
+                    <a href="https://wilgen.000webhostapp.com/practicas/landing/" target="_blank" class="proyectos-cta">Ver Pagina</a>
+                    <a href="https://github.com/Wilgen01/landing" target="_blank" class="proyectos-cta">Ver Codigo</a>
+                </div>
+            </div>
+            <div class="proyectos-card">
+                <div class="proyectos-header">
+                    <img src="https://wilgen.000webhostapp.com/img/peliculas.png" class="proyectos-img" alt="">
+                </div>
+                <div class="proyectos-body">
+                    <h3 class="proyectos-titulo">Peliculas App</h3>
+                    <p class="proyectos-parrafo">Aplicacion Web desarrollada en Angular consumiendo la API TheMovieDB, donde se lista un catalogo de peliculas con Infinite Scroll, pudiendo consultar detalles de cada una y realizar busquedas</p>
+                </div>
+                <div class="proyectos-btns">
+                    <a href="https://wilgen.000webhostapp.com/practicas/peliculas/" target="_blank" class="proyectos-cta">Ver Pagina</a>
+                    <a href="https://wilgen.000webhostapp.com/practicas/peliculas/" target="_blank" class="proyectos-cta">Ver Codigo</a>
+                </div>
+            </div>
+            <div class="proyectos-card">
+                <div class="proyectos-header">
+                    <img src="https://wilgen.000webhostapp.com/img/rick.PNG" class="proyectos-img" alt="">
+                </div>
+                <div class="proyectos-body">
+                    <h3 class="proyectos-titulo">RickApp</h3>
+                    <p class="proyectos-parrafo">Aplicacion Web desarrollada en Angular consumiendo la API RickAndMorty, Lista todos los personajes de la serie de forma paginada, Se implementa un buscador, lista de favoritos guardando en LocalStorage y LazyLoad</p>
+                </div>
+                <div class="proyectos-btns">
+                    <a href="https://wilgen.000webhostapp.com/practicas/rick/" target="_blank" class="proyectos-cta">Ver Pagina</a>
+                    <a href="https://github.com/Wilgen01/RickApp" target="_blank" class="proyectos-cta">Ver Codigo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <form class="formulario container" id="contacto">
+        <h2 class="formulario-titulo">Deja un comentario 🙂</h2>
+        <label for="nombre" class="formulario-label">Nombre:</label>
+        <input type="text" name="" id="nombre" class="input" placeholder="">
+        <label for="descripcion" class="formulario-label">Comentario:</label>
+        <textarea name="" id="descripcion" cols="" rows="3" class="textarea" maxlength="70"></textarea>
+        <button type="button" id="enviarComentario" class="proyectos-cta m-auto">Enviar</button>
+    </form>
+
+    
+    <footer class="footer-wave">
+        <ul class="footer">
+            <li style="color: white;" class="footer-link"><a href="https://api.whatsapp.com/send?phone=+573177329197&text=Hola!!!" target="_bank"><i class="fab fa-whatsapp"></i></a></li>
+            <li style="color: white;" class="footer-link"><a href="https://es-la.facebook.com/WilgenS.Garcia" target="_bank"><i class="fab fa-facebook-f"></i></a> </li>
+            <li style="color: white;" class="footer-link"><a href="" target="_bank"><i class="far fa-envelope"></i></a></li>
+            <li style="color: white;" class="footer-link"><a href="" target="_bank"> <i class="fab fa-instagram"></i></a></li>
+            <li style="color: white;" class="footer-link"><a href="" target="_bank"><i class="fab fa-linkedin-in"></i></a> </li>
+        </ul>
+        <p class="footer-text">CorrePrueba@gmail.com</p>
+        <p class="footer-text">Bogotá, Colombia</p>
+    </footer>
+
+    <div class="none" id="modal">
+        <div class="modal">
+            <h3 id="tituloModal" class="modal-tittle">Gracias por tu comentario!!! 😁</h3>
+            <p id="parrafoModal" class="modal-parrafo"></p>
+            <button class="proyectos-cta btn-modal" id="cerrarModal"> ah ok 👍</button>
+        </div>
+    </div>
+    <p class="derechos">Coded by Wilgen Garcia &#169 All Rights Reserved.</p>
+   
+    
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+    <script src="js/firebase.js"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+
+</html>
